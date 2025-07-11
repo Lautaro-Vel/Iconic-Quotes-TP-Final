@@ -1,0 +1,24 @@
+.divContainerListCitas {
+    display: flex;
+    margin-top: 140px;
+    margin-bottom: 90px;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 18px;
+}
+
+@media (max-width: 770px) {
+    .divContainerListCitas {
+        margin-top: 100px;
+        margin-bottom: 135px;
+    }
+}
+
+@media (max-width: 480px) {
+    .divContainerListCitas {
+        margin-top: 80px;
+        margin-bottom: 180px;
+    }
+}

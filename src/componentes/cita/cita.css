@@ -1,0 +1,132 @@
+.divCita {
+    background-color: var(--blue-gamma-dark);
+    width: 950px;
+    border-radius: 20px ;
+    padding: 20px 40px;
+    overflow: hidden;
+}
+
+.userDivCita {
+    background-color: var(--background-color-dark--2);
+    border: 2px solid var(--blue-gamma-light);
+}
+
+.divContainerLinkDetails {
+    display: flex;
+    justify-content: start;    
+    width: 100%;
+}
+
+.linkUserNameCita {
+    text-decoration: none;
+}
+
+.userNameCita {
+    width: fit-content;
+    color: var(--letter-color-white);
+    font-size: 1.8em;
+    font-family: var(--letter-font-family-2);
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+}
+
+.paragraphUserCita {
+    color: var(--letter-color-white);
+    font-size: 1.3em;
+    font-family: var(--letter-font-family-2);
+    letter-spacing: 1px;
+    padding: 0 22px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+.autorCita {
+    display: flex;
+    justify-content: flex-end;
+    color: var(--blue-gamma-light);
+    font-size: 1.2em;
+    font-family: var(--letter-font-family-2);
+    letter-spacing: 1px;
+    padding-right:60px;
+    padding-bottom: 6px;
+}
+
+.divButtonsCita {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.buttonLikes {
+    background-color: transparent;
+    border: none;
+    width: 40px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.buttonLikes:hover {
+    cursor: pointer;
+}   
+
+.deleteButtonCita {
+    background-color: transparent;
+    border: none;
+    width: 25px;
+    height: 25px;
+}
+
+.deleteButtonCita:hover {
+    cursor: pointer;
+}
+
+.spanLikes {
+    color: var(--blue-gamma-light);
+    font-size: 1.2em;
+    font-family: var(--letter-font-family-2);
+    letter-spacing: 1px;
+    display: flex;
+    gap: 5px;
+    padding-left: 15px; ;
+}
+
+.bi-trash {
+    color: var(--blue-gamma-light);
+    font-size: 1.2em;
+}
+
+@media (max-width: 1024px) {
+    .divCita {
+        width: 90%;
+    }
+    .userNameCita {
+        font-size: 1.5em;
+    }
+    .paragraphUserCita {
+        font-size: 1.1em;
+    }
+    .autorCita {
+        font-size: 1em;
+        padding-right: 45px;
+    }
+}
+
+@media (max-width:480px) {
+    .divCita {
+        padding: 15px ;
+    }
+    .userNameCita {
+        font-size: 1.3em;
+    }
+    .paragraphUserCita {
+        font-size: 1em;
+        padding: 0 6px 15px 6px;
+    }
+    .autorCita {
+        font-size: 0.9em;
+        padding-right: 30px;
+        padding-bottom: 12px;
+    }
+}

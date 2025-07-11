@@ -1,0 +1,74 @@
+.divListDetails {
+    background-color: var(--background-color-dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.divButtonReturnCitas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 90px;
+    height: 90px;    
+}
+
+.linkReturnCitas {
+    text-decoration: none;
+    color: var(--letter-color-white);
+    width: 100%;
+    height: 100%;
+    font-size: 3em;
+    background-color: transparent;
+}
+
+.divSpansContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 70px;
+}
+
+.upsSpan {
+    color: var(--letter-color-white);
+    font-size: 9em;
+    font-weight: 700;
+    font-family: var(--letter-font-family-1);
+    padding-right: 50px;
+}
+
+.puntoTransparent{
+    color: transparent;
+}
+
+.InvalidUserSpan {
+    color: var(--blue-gamma-light);
+    font-size: 1.5em;
+    font-weight: 700;
+    font-family: var(--letter-font-family-2);
+}
+
+@media (max-width: 770px) {
+    .upsSpan {
+        font-size: 6em;
+    }
+    .InvalidUserSpan {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 480px) {
+    .upsSpan {
+        font-size: 5em;
+    }
+    .InvalidUserSpan {
+        font-size: 1em;
+    }
+}

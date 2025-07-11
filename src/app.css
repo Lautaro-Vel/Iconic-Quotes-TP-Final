@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+/* Variables for dark mode */
+:root {
+    --background-color-dark: #061216;
+    --background-color-dark--2: #001720;
+    --blue-gamma-dark: #0d3544;
+    --blue-gamma-intermediate: #598392;
+    --blue-gamma-light: #aec3b0;
+    --letter-color-white: #eff6e0;
+    --letter-font-family-1: 'Boldonse', system-ui;
+    --letter-font-family-2: 'Abel', system-ui;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
