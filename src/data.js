@@ -58,5 +58,33 @@ export const data = {
             },
             texto: "Siempre imaginé que el Paraíso sería algún tipo de biblioteca.",
         },
+        {
+            id: 5,
+            usuario:'Alberto',
+            autor:"Julio Cortazar",
+            details: {
+                id: 5,
+                complet_name_autor: 'Alberto Jose Ramos',
+                age: 63,
+                nacionality: 'Español',
+                profession: 'Doctor',
+                descripcion: 'Después de toda una vida dedicada a la salud, mi bata blanca cuelga por fin. Ahora, busca la tranquilidad entre mi colección de monedas antiguas y las primeras notas de mi ukelele.',   
+            },
+            texto: "Andábamos sin buscarnos pero sabiendo que andábamos para encontrarnos.",
+        },
+        {
+            id: 6,
+            usuario:'Sabrina',
+            autor:"Antoine de Saint-Exupéry",
+            details: {
+                id: 6,
+                complet_name_autor: 'Sabrina Suarez',
+                age: 27,
+                nacionality: 'Argentina',
+                profession: 'Psicologa',
+                descripcion: 'Mi viaje se ha centrado en desentrañar las complejidades del ser, en cada encuentro y en cada silencio. Encuentro la plenitud en la constante exploración de la conciencia, con el pulso de esta ciudad vibrante como telón de fondo.',   
+            },
+            texto: "Si quieres construir un barco, no empieces por buscar madera, cortar tablas o distribuir el trabajo. Primero, evoca en los hombres y mujeres el anhelo del mar libre e infinito.",
+        }
     ]
 }

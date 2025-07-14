@@ -1,4 +1,4 @@
-import './newCitaForm.css'
+import './AddNewCitaForm.css'
 import React, { useContext } from "react";
 import { citaContexto } from "../../../contextos/citaContexto";
 

@@ -1,10 +1,10 @@
 import './citaList.css'
 import React, { useContext } from "react"
-import Cita from "./cita"
-import { citaContexto } from "../../contextos/citaContexto"
+import Cita from "../cita/cita"
+import { citaContexto } from "../../../contextos/citaContexto"
 
 
-export default function citaList() {
+export default function CitaList() {
     const { citas } = useContext(citaContexto)
 
     return (

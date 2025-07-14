@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Home from '../componentes/home/home'
+import Home from '../componentes/home/home/home'
 import Spinner from '../componentes/SpinnerLoading/SpinnerLoading'
 
 export default function HomeScreen() {

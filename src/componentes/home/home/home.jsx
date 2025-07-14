@@ -1,6 +1,6 @@
 import './home.css'
 import React from "react";
-import UserName from "./user-name/userNameForm";
+import UserName from "../user-name/userNameForm";
 
 const Home = () => {
     return (

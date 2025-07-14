@@ -1,8 +1,8 @@
 import './detailList.css'
 import React, {useContext} from "react";
-import Detail from "./detail";
-import { detailsContext } from "../../contextos/detailsContext";
-import { homeContext } from "../../contextos/homeContext";
+import Detail from "../detail/detail";
+import { detailsContext } from "../../../contextos/detailsContext";
+import { homeContext } from "../../../contextos/homeContext";
 import { Link } from 'react-router';
 
 

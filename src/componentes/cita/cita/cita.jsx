@@ -1,8 +1,8 @@
 import './cita.css'
 import React, { useContext, useState } from 'react'
-import { citaContexto } from '../../contextos/citaContexto'
+import { citaContexto } from '../../../contextos/citaContexto'
 import { Link } from 'react-router'
-import { homeContext } from '../../contextos/homeContext'
+import { homeContext } from '../../../contextos/homeContext'
 
 
 const Cita = ({ autor, usuario, id, texto}) => {

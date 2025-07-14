@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import DetailList from '../componentes/details/detailList'
+import DetailList from '../componentes/details/detail-list/detailList'
 import Spinner from "../componentes/SpinnerLoading/SpinnerLoading";
 
 export default function DetailsScreen() {
